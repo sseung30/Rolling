@@ -12,7 +12,7 @@ export const EmojiBadgeWrapper = styled.button`
   border: none;
   cursor: pointer;
 
-  @media (max-width: 360px) {
+  @media (max-width: 720px) {
     width: 55px;
   }
 `;
