@@ -62,7 +62,7 @@ const MessageCard = forwardRef(
                 e.stopPropagation();
                 onDelete(messageId);
               }}
-              variant="icon"
+              variant="outlined"
             >
               <img src={binIcon} alt="삭제 아이콘" />
             </DeleteCardButton>
@@ -85,6 +85,7 @@ const MessageCard = forwardRef(
 export default MessageCard;
 
 const DeleteCardButton = styled(Button)`
-  width: 40px;
-  height: 40px;
+  min-width: 40px !important;
+  width: 40px !important;
+  height: 40px !important;
 `;
