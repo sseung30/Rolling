@@ -101,12 +101,12 @@ Rolling/
 
 ## 🧑‍💻 팀원 소개
 
-| **이름**   | **역할** | **GitHub**                                  |
-| ---------- | -------- | ------------------------------------------- |
-| \[김희수\] | Frontend | \[nizoo0516\](https://github.com/nizoo0516) |
-| \[금정훈\] | Frontend | \[alvin-kum\](https://github.com/alvin-kum) |
-| \[박세진\] | Frontend | \[xha2023\](https://github.com/xha2023)     |
-| \[이승현\] | Frontend | \[sseung30\](https://github.com/sseung30)   |
+| **이름** | **역할** | **GitHub**                                |
+| -------- | -------- | ----------------------------------------- |
+| 김희수   | Frontend | [nizoo0516](https://github.com/nizoo0516) |
+| 금정훈   | Frontend | [alvin-kum](https://github.com/alvin-kum) |
+| 박세진   | Frontend | [xha2023](https://github.com/xha2023)     |
+| 이승현   | Frontend | [sseung30](https://github.com/sseung30)   |
 
 ## 🤝 기여 방법 (Contributing)
 
