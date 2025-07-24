@@ -160,6 +160,7 @@ const Container = styled.div`
 
   @media (min-width: 320px) {
     margin: 49px 24px;
+    /* height property removed or specify a value if needed */
   }
 
   @media (min-width: 768px) {
@@ -170,7 +171,7 @@ const Container = styled.div`
 
 const ButtonBox = styled.div`
   @media (min-width: 320px) {
-    margin-top: 182px;
+    margin-top: 0px;
   }
 
   @media (min-width: 768px) {

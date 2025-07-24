@@ -4,6 +4,7 @@ import { ToggleGroup } from '../button/ToggleGroup.styled';
 import ColorChipList from './ColorChipList';
 import ImageChipList from './ImageChipList';
 import { useTheme } from 'styled-components';
+import styled from 'styled-components';
 
 export default function BackgroundSelector({ selectedColor, onChangeColor }) {
   const theme = useTheme();
@@ -72,8 +73,8 @@ export default function BackgroundSelector({ selectedColor, onChangeColor }) {
   }, [tab, imageChipData]);
 
   return (
-    <div>
-      <ToggleGroup>
+    <Wrapper>
+      <FlexToggleGroup>
         <Button
           variant="toggle"
           isSelected={tab === 'color'}
@@ -92,7 +93,7 @@ export default function BackgroundSelector({ selectedColor, onChangeColor }) {
         >
           이미지
         </Button>
-      </ToggleGroup>
+      </FlexToggleGroup>
 
       {tab === 'color' && (
         <ColorChipList
@@ -124,6 +125,17 @@ export default function BackgroundSelector({ selectedColor, onChangeColor }) {
           }}
         />
       )}
-    </div>
+    </Wrapper>
   );
 }
+
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+`;
+
+const FlexToggleGroup = styled(ToggleGroup)`
+  display: inline-flex;
+  width: min-content;
+`;
