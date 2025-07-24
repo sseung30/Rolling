@@ -160,7 +160,6 @@ const Container = styled.div`
 
   @media (min-width: 320px) {
     margin: 49px 24px;
-    /* height property removed or specify a value if needed */
   }
 
   @media (min-width: 768px) {

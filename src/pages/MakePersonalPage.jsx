@@ -43,7 +43,7 @@ const LabelInfo = styled.h4`
 
 const ButtonBox = styled.div`
   @media (min-width: 320px) {
-    margin-top: 336px;
+    margin-top: 0px;
   }
 
   @media (min-width: 768px) {
