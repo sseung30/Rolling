@@ -258,7 +258,7 @@ const SubHeaderInner = styled.div`
   height: 68px;
   margin: 0 auto;
   padding: 0 24px;
-  @media (max-width: 360px) {
+  @media (max-width: 600px) {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -268,7 +268,7 @@ const SubHeaderInner = styled.div`
 `;
 
 const NameRow = styled.div`
-  @media (max-width: 360px) {
+  @media (max-width: 600px) {
     width: 100%;
     height: 52px;
     display: flex;
@@ -285,7 +285,7 @@ const RightGroup = styled.div`
   display: flex;
   align-items: center;
   gap: 8px;
-  @media (max-width: 360px) {
+  @media (max-width: 600px) {
     width: 100%;
     height: 52px;
   }
@@ -312,7 +312,7 @@ const ProfileList = styled.div`
     z-index: 1;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     display: none;
   }
 `;
@@ -321,7 +321,7 @@ const WriterText = styled.span`
   font-size: ${({ theme }) => theme.fontSizes.sm};
   color: ${({ theme }) => theme.colors.gray[500]};
 
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     display: none;
   }
 `;
@@ -333,7 +333,7 @@ const Divider = styled.div`
   margin: 0 8px;
 
   &.firstDivider {
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
       display: none;
     }
   }
@@ -348,7 +348,7 @@ const EmojiGroup = styled.div`
   gap: 8px;
   align-items: center;
 
-  @media (max-width: 360px) {
+  @media (max-width: 600px) {
     gap: 7px;
   }
 `;
@@ -383,14 +383,14 @@ const DropdownWrapper = styled.div`
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
   z-index: 10;
 
-  @media (max-width: 720px) {
+  @media (max-width: 900px) {
     width: 248px;
     height: 134px;
     gap: 13px 10px;
     padding-left: 26px;
   }
 
-  @media (max-width: 360px) {
+  @media (max-width: 600px) {
     width: 203px;
     height: 98px;
     gap: 4px;
@@ -404,7 +404,7 @@ const ButtonGroup = styled.div`
   gap: 4px;
   position: relative;
 
-  @media (max-width: 360px) {
+  @media (max-width: 600px) {
     gap: 2px;
   }
 `;
@@ -416,7 +416,7 @@ const EmojiButton = styled(Button)`
   align-items: center;
   gap: 5px;
 
-  @media (max-width: 360px) {
+  @media (max-width: 600px) {
     width: 36px !important;
     min-width: 36px !important;
     height: 32px !important;
@@ -439,7 +439,7 @@ const ShareButton = styled(Button)`
   align-items: center;
   justify-content: center;
 
-  @media (max-width: 360px) {
+  @media (max-width: 600px) {
     width: 36px !important;
     min-width: 36px !important;
     height: 32px !important;
