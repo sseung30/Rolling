@@ -377,7 +377,7 @@ const DropdownWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 10px 5px;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: center;
 
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
@@ -387,12 +387,14 @@ const DropdownWrapper = styled.div`
     width: 248px;
     height: 134px;
     gap: 13px 10px;
+    padding-left: 26px;
   }
 
   @media (max-width: 360px) {
     width: 203px;
     height: 98px;
     gap: 4px;
+    padding-left: 12px;
   }
 `;
 
