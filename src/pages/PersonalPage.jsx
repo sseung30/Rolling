@@ -273,7 +273,7 @@ const CardWrapper = styled.div`
 const DeleteButton = styled(Button)`
   position: absolute;
   top: -60px;
-  right: 0;
+  right: 24px;
 `;
 
 export { PageWrapper, CardWrapper, DeleteButton };
