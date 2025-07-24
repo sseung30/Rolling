@@ -6,7 +6,6 @@ import Button from '../components/button/Button';
 import CardModal from '../components/card/CardModal';
 import styled from 'styled-components';
 import { Helmet } from 'react-helmet-async';
-import { formatDate } from '../utils/FormatDate.js'; // 날짜 포맷 유틸리티
 
 //api
 import {
@@ -202,7 +201,8 @@ const PersonalPage = () => {
         {recipientInfo && (
           <Subheader
             data={{ ...recipientInfo, writerProfiles }}
-            totalWriters={writerProfiles.length}
+            totalWriters={messages.length}
+            totalMessages={messages.length}
           />
         )}
         <CardWrapper>

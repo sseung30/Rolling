@@ -13,7 +13,7 @@ import shareIcon from '../../assets/icon/ic_share.svg';
 import emojiIcon from '../../assets/icon/ic_emoji.svg';
 import arrowIcon from '../../assets/icon/ic_arrow_down.svg';
 
-export default function Subheader({ data, totalWriters }) {
+export default function Subheader({ data, totalWriters, totalMessages }) {
   const { name, writerProfiles = [] } = data;
   const { id: recipientId } = useParams();
 
@@ -157,7 +157,7 @@ export default function Subheader({ data, totalWriters }) {
               />
             ))}
             {writerProfiles.length > 3 && (
-              <div className="more-count">+{writerProfiles.length - 3}</div>
+              <div className="more-count">+{totalMessages - 3}</div>
             )}
           </ProfileList>
 
